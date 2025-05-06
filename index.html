@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftWare Testing</title>
+    <link rel="shortcut icon" href="./image/png-clipart-avatar-user-computer-icons-software-developer-avatar-child-face.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Login Form -->
+    <div class="login-modal" id="loginModal">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Enter your name" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- header  -->
+    <header class="header">
+        <a href="#" class="logo">S<span>Testing</span></a>
+        
+        <i class='bx bx-menu menu-icon'></i>
+        
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-trigger">List <i class='bx bx-chevron-down'></i></a>
+                <div class="dropdown-content">
+                    <a href="#testing" style="color: #fff;">Testing</a>
+                    <a href="#software-testing" style="color: #fff;">Software Testing</a>
+                    <a href="#code-quality" style="color: #fff;">Code Quality</a>
+                    <a href="#image-optimization" style="color: #fff;">Image Optimization</a>
+                    <a href="#dev-tools" style="color: #fff;">Dev Tools</a>
+                    <a href="#career" style="color: #fff;">Career</a>
+                </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <i class='bx bx-moon' id="moon"></i>
+    </header>
+    <!-- home section design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi, <span class="username-display">User</span> <span style="font-size: 6.5rem;">Welcome<i class='bx bx-shield-minus'></i></span></h1>
+        <div class="text-animate">
+            <h3>Frontend Developer</h3>
+            <h3>Backend Developer</h3>
+            <h3>Full Stack Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+             Quisquam, quos. Lorem ipsum dolor sit amet, consectetur adipisicing 
+             Consequuntur unde a fugiat!</p>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="btn-box">
+            <a href="#" class="btn">INTER YOUR CODE</a>
+        </div>
+    </div>  
+    <div class="profession-container">
+        <div class="profession-box">
+            <div class="profession" style="--i:0;">
+                <i class='bx bx-code-alt'></i>
+                <h3>Frontend Developer</h3>
+            </div>
+            <div class="profession" style="--i:1;">
+                <i class='bx bx-code' ></i>
+                <h3>Backend Developer</h3>
+            </div>
+            <div class="profession" style="--i:2;">
+                <i class='bx bx-code-curly' ></i>
+                <h3>web Developer</h3>
+            </div>
+            <div class="profession" style="--i:3;">
+                <i class='bx bx-code-block' ></i>
+                <h3>Full Stack Developer</h3>
+            </div>
+            <div class="circle"></div>
+            <div class="rotate"></div>
+        </div>
+    </div>
+
+</section>
+<section class="testing" id="testing">
+    <h2 class="heading">welcome to <span>Testing</span></h2>
+    
+    <div class="testing-container">
+        <div class="testing-box">
+            <div class="testing-content">
+                <i class='bx bx-code-block'></i>
+                <h3>Unit Testing</h3>
+                <p>Testing individual components and functions to ensure they work as expected.</p>
+                <div class="progress-circle" data-progress="85">
+                    <div class="progress-value">85%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testing-box">
+            <div class="testing-content">
+                <i class='bx bx-test-tube'></i>
+                <h3>Integration Testing</h3>
+                <p>Testing multiple components working together as a group.</p>
+                <div class="progress-circle" data-progress="75">
+                    <div class="progress-value">75%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testing-box">
+            <div class="testing-content">
+                <i class='bx bx-bug'></i>
+                <h3>End-to-End Testing</h3>
+                <p>Testing the complete application flow from start to finish.</p>
+                <div class="progress-circle" data-progress="90">
+                    <div class="progress-value">90%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="software-testing" id="software-testing">
+    <h2 class="heading">Software <span>Testing</span></h2>
+    
+    <div class="testing-grid">
+        <div class="test-card">
+            <div class="test-img">
+                <img src="./image/sevin.jpg" alt="Automation Testing">
+            </div>
+            <div class="test-info">
+                <h3>Automation Testing</h3>
+                <p>Automated software testing using modern tools and frameworks.</p>
+                <div class="tech-stack">
+                    <i class='bx bxl-selenium'></i>
+                    <i class='bx bxl-python'></i>
+                    <i class='bx bxl-javascript'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-card">
+            <div class="test-img">
+                <img src="./image/five.jpg" alt="Manual Testing">
+            </div>
+            <div class="test-info">
+                <h3>Manual Testing</h3>
+                <p>Comprehensive manual testing procedures and methodologies.</p>
+                <div class="tech-stack">
+                    <i class='bx bx-check-shield'></i>
+                    <i class='bx bx-bug-alt'></i>
+                    <i class='bx bx-test-tube'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-card">
+            <div class="test-img">
+                <img src="./image/six.jpg" alt="API Testing">
+            </div>
+            <div class="test-info">
+                <h3>API Testing</h3>
+                <p>Testing REST APIs and web services for reliability.</p>
+                <div class="tech-stack">
+                    <i class='bx bx-code-curly'></i>
+                    <i class='bx bx-data'></i>
+                    <i class='bx bx-server'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="test-card">
+            <div class="test-img">
+                <img src="./image/nine.jpg" alt="Security Testing">
+            </div>
+            <div class="test-info">
+                <h3>Security Testing</h3>
+                <p>Ensuring application security and vulnerability assessment.</p>
+                <div class="tech-stack">
+                    <i class='bx bx-shield-quarter'></i>
+                    <i class='bx bx-lock-alt'></i>
+                    <i class='bx bx-certification'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="code-quality" id="code-quality">
+    <h2 class="heading">Code <span>Quality</span></h2>
+    
+    <div class="quality-container">
+        <div class="quality-card left">
+            <div class="code-preview">
+                <pre><code class="bad-code">
+// Bad Code Example
+function calculate(x) {
+    let result = x + 10;
+    result = result * 2;
+    result = result / 3;
+    return result;
+}
+
+function calculateAgain(y) {
+    let result = y + 10;
+    result = result * 2;
+    result = result / 3;
+    return result;
+}</code></pre>
+                <div class="code-label">Duplicated Code</div>
+            </div>
+            <div class="improvement-info">
+                <i class='bx bx-x-circle'></i>
+                <h3>Code Duplication</h3>
+                <ul>
+                    <li>Repeated logic</li>
+                    <li>Hard to maintain</li>
+                    <li>Prone to errors</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="quality-card right">
+            <div class="code-preview">
+                <pre><code class="good-code">
+// Good Code Example
+function calculate(value) {
+    return ((value + 10) * 2) / 3;
+}
+
+// Reuse the same function
+const result1 = calculate(x);
+const result2 = calculate(y);</code></pre>
+                <div class="code-label">Optimized Code</div>
+            </div>
+            <div class="improvement-info">
+                <i class='bx bx-check-circle'></i>
+                <h3>Clean Code</h3>
+                <ul>
+                    <li>Single responsibility</li>
+                    <li>Easy to maintain</li>
+                    <li>Reusable function</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="code-solutions" id="code-solutions">
+    <h2 class="heading">Code <span>Solutions</span></h2>
+    
+    <div class="solutions-container">
+        <div class="solution-card">
+            <div class="code-box">
+                <h3>Problem: Long Repetitive Code</h3>
+                <pre><code class="problem-code">
+// Repetitive Code
+const validateEmail = (email) => {
+    if (email === '') return 'Email is required';
+    if (!email.includes('@')) return 'Invalid email format';
+    if (email.length < 5) return 'Email too short';
+    return '';
+}
+
+const validatePassword = (password) => {
+    if (password === '') return 'Password is required';
+    if (password.length < 6) return 'Password too short';
+    if (!password.match(/[A-Z]/)) return 'Need uppercase';
+    return '';
+}
+
+const validateUsername = (username) => {
+    if (username === '') return 'Username is required';
+    if (username.length < 3) return 'Username too short';
+    if (!username.match(/^[a-zA-Z]/)) return 'Start with letter';
+    return '';
+}</code></pre>
+            </div>
+            <div class="solution-box">
+                <h3>Solution: Using Validation Rules</h3>
+                <pre><code class="solution-code">
+// Reusable Validation Rules
+const validationRules = {
+    required: (value, field) => 
+        !value ? `${field} is required` : '',
+    
+    minLength: (value, min) => 
+        value.length < min ? `Minimum ${min} characters` : '',
+    
+    pattern: (value, regex, message) => 
+        !value.match(regex) ? message : ''
+};
+
+// Generic Validator
+const validate = (value, field, rules) => {
+    for (const rule of rules) {
+        const error = rule(value, field);
+        if (error) return error;
+    }
+    return '';
+};
+
+// Usage
+const validateField = (value, field, rules) => 
+    validate(value, field, rules);
+
+// Example:
+const emailRules = [
+    (v) => validationRules.required(v, 'Email'),
+    (v) => validationRules.pattern(v, /@/, 'Invalid email')
+];</code></pre>
+            </div>
+        </div>
+
+        <div class="benefits-list">
+            <div class="benefit-item">
+                <i class='bx bx-check-circle'></i>
+                <div class="benefit-content">
+                    <h4>Maintainable Code</h4>
+                    <p>Single source of truth for validation rules</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <i class='bx bx-refresh'></i>
+                <div class="benefit-content">
+                    <h4>Reusable Logic</h4>
+                    <p>Write once, use everywhere</p>
+                </div>
+            </div>
+            <div class="benefit-item">
+                <i class='bx bx-bug'></i>
+                <div class="benefit-content">
+                    <h4>Fewer Bugs</h4>
+                    <p>Centralized validation reduces errors</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image-optimization" id="image-optimization">
+    <h2 class="heading">Image <span>Optimization</span></h2>
+    
+    <div class="optimization-container">
+        <div class="optimization-card">
+            <div class="image-comparison">
+                <div class="bad-practice">
+                    <img src="./image/six.jpg" alt="Bad Practice">
+                    <div class="image-info">
+                        <h3>Before Optimization</h3>
+                        <ul>
+                            <li><i class='bx bx-x'></i> Large file size (5MB)</li>
+                            <li><i class='bx bx-x'></i> No compression</li>
+                            <li><i class='bx bx-x'></i> Wrong format</li>
+                        </ul>
+                        <div class="size-badge">5 MB</div>
+                    </div>
+                </div>
+                <div class="good-practice">
+                    <img 
+                        src="./image/five.jpg"
+                        alt="Optimized Image"
+                    >
+                    <div class="image-info">
+                        <h3>After Optimization</h3>
+                        <ul>
+                            <li><i class='bx bx-check'></i> Optimized size (200KB)</li>
+                            <li><i class='bx bx-check'></i> WebP format</li>
+                            <li><i class='bx bx-check'></i> Lazy loading</li>
+                        </ul>
+                        <div class="size-badge">200 KB</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="code-example">
+                <h3>Optimized Image Code</h3>
+                <pre><code class="optimization-code">
+<!-- Responsive Images -->
+<img src="./IMG-20250309-WA0004.png" alt="">
+
+<!-- CSS Background Optimization -->
+.bg-image {
+    background-image: image-set(
+        "./image/five-small.webp" 1x,
+        "./image/five-medium.webp" 2x,
+        "./image/five-large.webp" 3x
+    );
+    background-size: cover;
+}</code></pre>
+            </div>
+
+            <div class="optimization-tips">
+                <div class="tip-card">
+                    <i class='bx bx-crop'></i>
+                    <h4>Proper Sizing</h4>
+                    <p>Use correct dimensions for different devices</p>
+                </div>
+                <div class="tip-card">
+                    <i class='bx bx-image'></i>
+                    <h4>Modern Formats</h4>
+                    <p>Use WebP with fallback for older browsers</p>
+                </div>
+                <div class="tip-card">
+                    <i class='bx bx-loader'></i>
+                    <h4>Lazy Loading</h4>
+                    <p>Load images only when needed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="dev-tools" id="dev-tools">
+    <h2 class="heading">Development <span>Tools</span></h2>
+    
+    <div class="tools-container">
+        <div class="tool-card">
+            <div class="tool-icon">
+                <i class='bx bxl-visual-studio'></i>
+            </div>
+            <div class="tool-info">
+                <h3>Visual Studio Code</h3>
+                <p>A lightweight but powerful source code editor with rich ecosystem of extensions</p>
+                <div class="features">
+                    <span><i class='bx bx-check'></i> Smart Code Completion</span>
+                    <span><i class='bx bx-check'></i> Built-in Git Commands</span>
+                    <span><i class='bx bx-check'></i> Live Share Collaboration</span>
+                    <span><i class='bx bx-check'></i> Multi-language Support</span>
+                </div>
+                <a href="https://code.visualstudio.com" target="_blank" class="tool-link">
+                    Get Started <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="tool-card">
+            <div class="tool-icon">
+                <i class='bx bxl-github'></i>
+            </div>
+            <div class="tool-info">
+                <h3>GitHub Pro</h3>
+                <p>The complete developer platform to build, scale and deliver secure software</p>
+                <div class="features">
+                    <span><i class='bx bx-check'></i> Advanced Security</span>
+                    <span><i class='bx bx-check'></i> Actions & Packages</span>
+                    <span><i class='bx bx-check'></i> Project Management</span>
+                    <span><i class='bx bx-check'></i> Code Review Tools</span>
+                </div>
+                <a href="https://github.com" target="_blank" class="tool-link">
+                    Explore Features <i class='bx bx-rocket'></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="tool-card">
+            <div class="tool-icon">
+                <i class='bx bxl-chrome'></i>
+            </div>
+            <div class="tool-info">
+                <h3>Chrome DevTools Pro</h3>
+                <p>Web developer tools built directly into the Google Chrome browser</p>
+                <div class="features">
+                    <span><i class='bx bx-check'></i> Real-time Editing</span>
+                    <span><i class='bx bx-check'></i> Network Analysis</span>
+                    <span><i class='bx bx-check'></i> Memory Profiling</span>
+                    <span><i class='bx bx-check'></i> Security Testing</span>
+                </div>
+                <a href="https://developers.google.com/web/tools/chrome-devtools" target="_blank" class="tool-link">
+                    Master DevTools <i class='bx bx-book-open'></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="tool-card">
+            <div class="tool-icon">
+                <i class='bx bxl-firebase'></i>
+            </div>
+            <div class="tool-info">
+                <h3>Firebase Suite</h3>
+                <p>Google's comprehensive app development platform with powerful tools</p>
+                <div class="features">
+                    <span><i class='bx bx-check'></i> Cloud Functions</span>
+                    <span><i class='bx bx-check'></i> Real-time Database</span>
+                    <span><i class='bx bx-check'></i> Analytics & ML Kit</span>
+                    <span><i class='bx bx-check'></i> Cloud Storage</span>
+                </div>
+                <a href="https://firebase.google.com" target="_blank" class="tool-link">
+                    Build Now <i class='bx bx-code-alt'></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tools-comparison">
+        <h3>Popular IDEs Comparison</h3>
+        <div class="comparison-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th><i class='bx bxl-visual-studio'></i>VS Code</th>
+                        <th><i class='bx bx-code-block'></i>WebStorm</th>
+                        <th><i class='bx bx-code-alt'></i>Sublime</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Price</td>
+                        <td><span class="highlight free">Free</span></td>
+                        <td><span class="highlight paid">Paid</span></td>
+                        <td><span class="highlight trial">Free Trial</span></td>
+                    </tr>
+                    <tr>
+                        <td>Performance</td>
+                        <td>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bx-star'></i>
+                                <i class='bx bx-star'></i>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Extensions</td>
+                        <td><span class="badge">14,000+</span></td>
+                        <td><span class="badge">3,000+</span></td>
+                        <td><span class="badge">5,000+</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="career-requirements" id="career">
+    <h2 class="heading">Career <span>Requirements</span></h2>
+    
+    <div class="requirements-container">
+        <!-- Technical Skills -->
+        <div class="requirement-box">
+            <div class="req-header">
+                <i class='bx bx-code-alt'></i>
+                <h3>Technical Requirements</h3>
+            </div>
+            <div class="req-content">
+                <ul>
+                    <li><i class='bx bx-check'></i>Data Structures & Algorithms</li>
+                    <li><i class='bx bx-check'></i>System Design & Architecture</li>
+                    <li><i class='bx bx-check'></i>Full Stack Development</li>
+                    <li><i class='bx bx-check'></i>Problem Solving Skills</li>
+                    <li><i class='bx bx-check'></i>Clean Code & Best Practices</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="requirement-box">
+            <div class="req-header">
+                <i class='bx bx-briefcase'></i>
+                <h3>Experience Level</h3>
+            </div>
+            <div class="req-content">
+                <div class="experience-level">
+                    <div class="level">
+                        <h4>Junior</h4>
+                        <p>0-2 Years</p>
+                        <span>$60K - $90K</span>
+                    </div>
+                    <div class="level">
+                        <h4>Mid-Level</h4>
+                        <p>2-5 Years</p>
+                        <span>$90K - $140K</span>
+                    </div>
+                    <div class="level">
+                        <h4>Senior</h4>
+                        <p>5+ Years</p>
+                        <span>$140K - $200K+</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Companies -->
+        <div class="requirement-box">
+            <div class="req-header">
+                <i class='bx bx-buildings'></i>
+                <h3>Top Companies</h3>
+            </div>
+            <div class="req-content">
+                <div class="company-grid">
+                    <div class="company">
+                        <i class='bx bxl-google'></i>
+                        <h4>Google</h4>
+                        <p>L3-L5 Level</p>
+                    </div>
+                    <div class="company">
+                        <i class='bx bxl-microsoft'></i>
+                        <h4>Microsoft</h4>
+                        <p>SDE I-III</p>
+                    </div>
+                    <div class="company">
+                        <i class='bx bxl-amazon'></i>
+                        <h4>Amazon</h4>
+                        <p>SDE I-III</p>
+                    </div>
+                    <div class="company">
+                        <i class='bx bxl-meta'></i>
+                        <h4>Meta</h4>
+                        <p>E3-E5 Level</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Interview Process -->
+        <div class="requirement-box">
+            <div class="req-header">
+                <i class='bx bx-target-lock'></i>
+                <h3>Interview Process</h3>
+            </div>
+            <div class="req-content">
+                <div class="process-steps">
+                    <div class="step">
+                        <span>1</span>
+                        <h4>Online Assessment</h4>
+                        <p>Coding & Technical Test</p>
+                    </div>
+                    <div class="step">
+                        <span>2</span>
+                        <h4>Technical Rounds</h4>
+                        <p>DSA & Problem Solving</p>
+                    </div>
+                    <div class="step">
+                        <span>3</span>
+                        <h4>System Design</h4>
+                        <p>Architecture Discussion</p>
+                    </div>
+                    <div class="step">
+                        <span>4</span>
+                        <h4>HR Round</h4>
+                        <p>Culture & Compensation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ... existing code ... -->
+<section class="about-testing" id="about">
+    <h2 class="heading">About <span>Testing</span></h2>
+    
+    <div class="testing-overview">
+        <div class="testing-content">
+            <div class="testing-text">
+                <h3>Why Testing Matters</h3>
+                <p>Software testing is crucial for delivering high-quality applications that meet user expectations and business requirements. It helps identify bugs early in the development cycle and ensures reliable performance.</p>
+            </div>
+            <div class="testing-stats">
+                <div class="stat-item">
+                    <i class='bx bx-bug'></i>
+                    <h4>Bug Detection</h4>
+                    <span class="counter" data-target="95">0</span>
+                    <span class="percent">%</span>
+                </div>
+                <div class="stat-item">
+                    <i class='bx bx-time'></i>
+                    <h4>Time Saved</h4>
+                    <span class="counter" data-target="60">0</span>
+                    <span class="percent">%</span>
+                </div>
+                <div class="stat-item">
+                    <i class='bx bx-check-shield'></i>
+                    <h4>Code Coverage</h4>
+                    <span class="counter" data-target="85">0</span>
+                    <span class="percent">%</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testing-types">
+            <div class="type-card">
+                <div class="type-icon">
+                    <i class='bx bx-code-block'></i>
+                </div>
+                <h4>Unit Testing</h4>
+                <p>Testing individual components to ensure they work as expected.</p>
+            </div>
+            <div class="type-card">
+                <div class="type-icon">
+                    <i class='bx bx-git-compare'></i>
+                </div>
+                <h4>Integration Testing</h4>
+                <p>Verifying that different parts of the application work together.</p>
+            </div>
+            <div class="type-card">
+                <div class="type-icon">
+                    <i class='bx bx-devices'></i>
+                </div>
+                <h4>End-to-End Testing</h4>
+                <p>Testing the complete application flow from start to finish.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    
+    <div class="contact-container">
+        <div class="contact-info">
+            <div class="info-box">
+                <i class='bx bx-map'></i>
+                <div class="info-text">
+                    <h3>Location</h3>
+                    <p>Cairo, Egypt</p>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <i class='bx bx-envelope'></i>
+                <div class="info-text">
+                    <h3>Email</h3>
+                    <p>example@gmail.com</p>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <i class='bx bx-phone'></i>
+                <div class="info-text">
+                    <h3>Phone</h3>
+                    <p>+20 123 456 789</p>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="input-box">
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+                
+                <div class="input-box">
+                    <input type="tel" id="phone" placeholder="Mobile Number">
+                    <input type="text" id="subject" placeholder="Subject">
+                </div>
+                
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            
+            <!-- Message History -->
+            <div class="message-history">
+                <h3>Previous Messages</h3>
+                <div id="messageList"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>About Us</h3>
+            <p>We are dedicated to providing high-quality web development solutions and testing services to ensure the best possible user experience.</p>
+            <div class="socials">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+        <div class="footer-section quick-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#home"><i class='bx bx-chevron-right'></i> Home</a></li>
+                <li><a href="#testing"><i class='bx bx-chevron-right'></i> Testing</a></li>
+                <li><a href="#about"><i class='bx bx-chevron-right'></i> About</a></li>
+                <li><a href="#contact"><i class='bx bx-chevron-right'></i> Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section services">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#"><i class='bx bx-check'></i> Web Development</a></li>
+                <li><a href="#"><i class='bx bx-check'></i> Software Testing</a></li>
+                <li><a href="#"><i class='bx bx-check'></i> Quality Assurance</a></li>
+                <li><a href="#"><i class='bx bx-check'></i> Code Review</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section newsletter">
+            <h3>Newsletter</h3>
+            <p>Subscribe to our newsletter for updates and news.</p>
+            <form id="newsletter-form">
+                <div class="form-group">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit"><i class='bx bx-paper-plane'></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+        <div class="footer-menu">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+    </div>
+
+    <div class="scroll-top">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
